@@ -5,3 +5,108 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open sans', sans-serif;
+	font-size: 18px;
+	padding: 5px;
+}
+
+p {
+	padding: 8px;
+	color: black;
+}
+
+.header-text {
+	color: #116189;
+	font-size: 36px;
+	font-family: 'Boogaloo';
+}
+
+h3 {
+	font-size: 20px;
+	color: #116189;
+	padding: 3px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 28px;
+	color: #116189;
+	padding: 5px;
+	font-weight: bold;
+}
+
+
+
+.gears {
+	float: left;
+	margin-right: 8px;
+	padding: 5px;
+}
+
+.motto{
+	font-style: italic;
+	font-size: 120%;
+	padding: 10px;
+}
+
+.content{
+	background-color: #FFF;
+	box-shadow: 2px 2px 6px #555;
+	margin: 0 auto;
+	width: 80%;
+}
+
+nav ul {
+	background-color: #D74710;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 3px;
+}
+
+nav a:hover{
+	color: #ff9d45;
+}
+
+nav a {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 110%;
+	padding: 5px;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+.shipping {
+	float: right;
+}
+
+.footer {
+	font-style: italic;
+	border-top: 1px;
+	padding-top: 20px;
+	border-color: gray;
+	border-style: solid;
+	padding: 10px;
+}
+
+
+footer a:link {
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
+
